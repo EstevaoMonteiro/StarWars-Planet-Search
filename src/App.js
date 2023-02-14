@@ -1,9 +1,14 @@
-import React from 'react';
-// import './App.css';
+import './App.css';
+import Form from './components/Form';
+import Table from './components/Table';
+import ProviderApi from './context/ProviderApi';
 
 function App() {
   return (
-    <span>Hello, App!</span>
+    <ProviderApi>
+      <Form />
+      <Table />
+    </ProviderApi>
   );
 }
 
