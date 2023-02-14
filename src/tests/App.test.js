@@ -98,4 +98,5 @@ describe('App page', () => {
     expect(columnSortButton).toBeInTheDocument();
     userEvent.click(columnSortButton);
   })
+  //
 });
